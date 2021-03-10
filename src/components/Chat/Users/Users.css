@@ -1,0 +1,22 @@
+.users {
+	width: 35%;
+	padding: 5px;
+	background-color: #e6e6e6;
+	border-right: 1px solid #bbbbbb;
+}
+.user {
+	display: flex;
+	margin: 10px 0px;
+}
+.user > p {
+	margin: 0px 0px 0px 5px;
+}
+.dot {
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: 6px;
+}
+.users > h2 {
+	font-weight: normal;
+}

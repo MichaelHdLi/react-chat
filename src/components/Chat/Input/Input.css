@@ -1,0 +1,43 @@
+.chat-input {
+	box-sizing: border-box;
+	display: flex;
+	height: 10%;
+	background-color: #f5f5f5;
+	border-top: 1px solid #bbbbbb;
+}
+.input {
+	font-size: 14px;
+	padding: 0 15px;
+	color: black;
+	border: none;
+	background-color: #f5f5f5;
+	border-radius: 5px 0px 0px 0px;
+	border-bottom: 1px solid #bbbbbb;
+	width: 80%;
+}
+
+.text-button {
+	background: lightgreen;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+	border-radius: 0px 0px 5px 0px;
+	width: 20%;
+}
+.input:focus {
+	outline: none;
+	background-color: white;
+}
+
+.text-button:focus {
+	outline: none;
+}
+.text-button:hover {
+	cursor: pointer;
+	background-color: #2ba245;
+	color: white;
+}

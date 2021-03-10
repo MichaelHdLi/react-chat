@@ -1,0 +1,74 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+    overflow: auto;
+    border-radius: 5px;
+}
+.room-info {
+    display: flex;
+
+    justify-content: space-between;
+    text-align: center;
+    background-color: #cfcfcf;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.room-name {
+    position: relative;
+    left: 45%;
+}
+.exit-room {
+    background-color: #ff605c;
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ff605c;
+}
+
+.exit-room:hover {
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+}
+.chat {
+    height: 100%;
+    display: flex;
+}
+.chat-box {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.exit {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .chat {
+        height: 100%;
+    }
+}
